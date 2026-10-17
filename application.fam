@@ -1,0 +1,12 @@
+App(
+    appid="magic_life",
+    name="MTG Life Tracker",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="magic_life_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_icon="magic_life.png",
+    fap_category="Games",
+    fap_version=(1, 0),
+    fap_description="Magic: The Gathering life tracker. Standard (20 life) 2-player mode.",
+)
